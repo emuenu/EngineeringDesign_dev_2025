@@ -1,0 +1,11 @@
+# MySQLの公式のベースイメージ
+FROM mysql:8.0
+
+# データベース接続の情報
+ENV MYSQL_DATABASE=tango
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=3710
+ENV MYSQL_ROOT_PASSWORD=3710
+
+# 待ち受けるポート番号
+EXPOSE 3306
